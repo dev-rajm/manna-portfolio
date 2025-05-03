@@ -1,0 +1,73 @@
+"use client";
+
+import {
+  Briefcase,
+  Folder,
+  House,
+  Mail,
+  SquarePen,
+  Wrench,
+} from "lucide-react";
+import Link from "next/link";
+import { cn } from "@/lib/utils";
+import { usePathname } from "next/navigation";
+
+import { Badge } from "@/components/ui/badge";
+
+const routes = [
+  {
+    label: "Home",
+    icon: House,
+    href: "/",
+  },
+  {
+    label: "Projects",
+    icon: Folder,
+    href: "/projects",
+  },
+  {
+    label: "Experience",
+    icon: Briefcase,
+    href: "/experience",
+  },
+  {
+    label: "Skills",
+    icon: Wrench,
+    href: "/skills",
+  },
+  {
+    label: "Thoughts",
+    icon: SquarePen,
+    href: "/thoughts",
+  },
+  {
+    label: "Contact",
+    icon: Mail,
+    href: "/contact",
+  },
+];
+
+const Navbar = () => {
+  const pathname = usePathname();
+  return (
+    <div className="bg-white/5 p-1.5 px-5 flex items-center justify-center mx-auto w-fit space-x-2.5 lg:space-x-5 rounded-xl">
+      {routes.map((route) => (
+        <Link
+          href={route.href}
+          key={route.href}
+          className={cn(
+            "p-2 relative group rounded-sm hover:bg-red-700 transition-colors duration-500",
+            pathname === route.href && "bg-red-700"
+          )}
+        >
+          <route.icon className="w-5 h-5 text-white" />
+          <Badge className="absolute bottom-0 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 group-hover:translate-y-8 transition delay-150 duration-500">
+            {route.label}
+          </Badge>
+        </Link>
+      ))}
+    </div>
+  );
+};
+
+export default Navbar;
