@@ -56,12 +56,12 @@ const Navbar = () => {
           href={route.href}
           key={route.href}
           className={cn(
-            "p-2 relative group rounded-sm hover:bg-red-700 transition-colors duration-500",
+            "p-2 relative group rounded-sm hover:bg-red-700 transition-colors duration-300 delay-150",
             pathname === route.href && "bg-red-700"
           )}
         >
           <route.icon className="w-5 h-5 text-white" />
-          <Badge className="hidden md:flex items-center absolute bottom-0 left-1/2 -translate-x-1/2 opacity-0 bg-neutral-500/30 group-hover:opacity-100 group-hover:translate-y-8 transition delay-150 duration-500">
+          <Badge className="hidden md:flex items-center absolute bottom-0 left-1/2 -translate-x-1/2 opacity-0 bg-neutral-500/30 group-hover:opacity-100 group-hover:translate-y-8 transition delay-150 duration-300">
             {route.label}
           </Badge>
         </Link>
