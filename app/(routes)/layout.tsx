@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const RouteLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="h-full relative bg-black/95 text-white">
+    <div className="h-full relative bg-black/95">
       <main className="pt-7">
         <Navbar />
         {children}

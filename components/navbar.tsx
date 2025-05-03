@@ -50,7 +50,7 @@ const routes = [
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <div className="bg-white/5 p-1.5 px-5 flex items-center justify-center mx-auto w-fit space-x-2.5 lg:space-x-5 rounded-xl">
+    <div className="bg-neutral-500/10 p-1.5 px-5 flex items-center justify-center mx-auto w-fit space-x-2.5 lg:space-x-5 rounded-xl">
       {routes.map((route) => (
         <Link
           href={route.href}
@@ -61,7 +61,7 @@ const Navbar = () => {
           )}
         >
           <route.icon className="w-5 h-5 text-white" />
-          <Badge className="absolute bottom-0 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 group-hover:translate-y-8 transition delay-150 duration-500">
+          <Badge className="hidden md:flex items-center absolute bottom-0 left-1/2 -translate-x-1/2 opacity-0 bg-neutral-500/30 group-hover:opacity-100 group-hover:translate-y-8 transition delay-150 duration-500">
             {route.label}
           </Badge>
         </Link>
