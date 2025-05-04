@@ -61,7 +61,7 @@ const Navbar = () => {
           )}
         >
           <route.icon className="w-5 h-5 text-white" />
-          <Badge className="hidden md:flex items-center absolute bottom-0 left-1/2 -translate-x-1/2 opacity-0 bg-neutral-500/30 group-hover:opacity-100 group-hover:translate-y-8 transition delay-150 duration-300">
+          <Badge className="hidden rounded-lg md:flex h-[23px] py-0 items-center absolute bottom-0 left-1/2 -translate-x-1/2 opacity-0 bg-neutral-500/30 group-hover:opacity-100 group-hover:translate-y-8 transition delay-150 duration-300">
             {route.label}
           </Badge>
         </Link>
