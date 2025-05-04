@@ -21,7 +21,7 @@ const Sidebar = () => {
         />
       </div>
       <div className="text-center text-lg font-medium">
-        <h1 className="text-black text-4xl font-bold my-5">Raj Manna</h1>
+        <h1 className="text-black text-4xl font-bold my-7">Raj Manna</h1>
         <div className="relative lg:h-[80px]">
           <Image
             width={200}
@@ -35,7 +35,7 @@ const Sidebar = () => {
           A Software Engineer who has developed countless scalable solutions.
         </p>
       </div>
-      <div className="flex justify-center text-red-500 space-x-6 mt-5 mb-2">
+      <div className="flex justify-center text-red-500 space-x-6 mt-8 mb-2">
         <Link href="https://github.com/dev-rajm">
           <Github />
         </Link>
