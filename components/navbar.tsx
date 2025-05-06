@@ -50,7 +50,7 @@ const routes = [
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <div className="bg-neutral-500/10 p-1.5 px-5 flex items-center justify-center mx-auto w-fit space-x-2.5 lg:space-x-5 rounded-xl">
+    <div className="bg-neutral-500/10 p-2 px-6 flex items-center justify-center mx-auto w-fit space-x-2.5 lg:space-x-5 rounded-2xl">
       {routes.map((route) => (
         <Link
           href={route.href}
