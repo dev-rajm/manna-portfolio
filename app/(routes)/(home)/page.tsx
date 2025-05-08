@@ -1,6 +1,7 @@
 import CountComponent from "@/components/count";
 import Heading from "@/components/heading";
 import { ArrowUpRight, Layers, PanelsTopLeft } from "lucide-react";
+import ProjectComponent from "@/components/projects";
 
 const HomePage = () => {
   return (
@@ -34,6 +35,9 @@ const HomePage = () => {
             <ArrowUpRight />
           </div>
         </div>
+      </div>
+      <div className="mt-16 lg:mt-32 text-center lg:text-start">
+        <ProjectComponent />
       </div>
     </>
   );
