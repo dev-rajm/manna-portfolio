@@ -6,7 +6,7 @@ const Heading = ({
   MutedLabel: string;
 }) => {
   return (
-    <h1 className="text-[3.56rem] lg:text-[6.5rem] leading-[3.56rem] lg:leading-[6.5rem] font-bold uppercase">
+    <h1 className="text-[3.56rem] lg:text-[6.5rem] leading-[3.56rem] lg:leading-[6.5rem] font-bold uppercase text-center lg:text-start">
       {highlightedLabel}{" "}
       <span className="text-neutral-700/70">{MutedLabel}</span>
     </h1>
