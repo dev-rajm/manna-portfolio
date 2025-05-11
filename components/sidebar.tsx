@@ -15,7 +15,7 @@ const Sidebar = () => {
       <div className="relative w-64 lg:w-full h-52 md:h-80 mx-auto">
         <Image
           fill
-          src="/avatar.png"
+          src="/me.jpg"
           alt="Raj Manna Illustrated Avatar"
           className="rounded-2xl object-cover object-top"
         />
