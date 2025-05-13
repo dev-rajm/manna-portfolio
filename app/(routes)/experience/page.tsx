@@ -1,5 +1,11 @@
+import ExperienceComponent from "@/components/experienceComponent";
+
 const ExperiencePage = () => {
-  return <div>Hello from Experience Page</div>;
+  return (
+    <>
+      <ExperienceComponent />
+    </>
+  );
 };
 
 export default ExperiencePage;
