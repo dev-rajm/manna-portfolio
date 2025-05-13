@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <>
       <IntroComponent />
-      <div className="mt-10 lg:mt-32 text-center lg:text-start">
+      <div className="mt-16 lg:mt-32 text-center lg:text-start">
         <ProjectComponent />
       </div>
     </>
