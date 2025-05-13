@@ -18,14 +18,14 @@ const IntroComponent = () => {
         </div>
       </div>
       <div className="flex text-2xl font-medium uppercase flex-col lg:flex-row gap-5 mt-20">
-        <div className="flex flex-2/3 flex-col px-5 pb-5 pt-10 rounded-xl bg-[url(/b1.svg)] bg-cover">
+        <div className="flex flex-2/3 flex-col px-5 pb-5 pt-5 lg:pt-10 rounded-xl bg-[url(/b1.svg)] bg-cover">
           <Layers size={36} />
           <p className="my-5">Dynamic Functionality, Responsive Design</p>
           <div className="self-end border hover:bg-white hover:text-accent-foreground w-fit rounded-sm p-1">
             <ArrowUpRight />
           </div>
         </div>
-        <div className="flex flex-col px-5 pb-5 pt-10 rounded-xl bg-[url(/b2.svg)] text-black bg-cover">
+        <div className="flex flex-col px-5 pb-5 pt-5 lg:pt-10 rounded-xl bg-[url(/b2.svg)] text-black bg-cover">
           <PanelsTopLeft size={36} />
           <p className="my-5">
             Typescript, NextJS, ReactJS, Prisma ORM, Docker, TurboRepo
