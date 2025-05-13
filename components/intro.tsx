@@ -7,14 +7,14 @@ const IntroComponent = () => {
     <>
       <div className="w-full lg:w-lg">
         <Heading highlightedLabel="Software" MutedLabel="Engineer" />
-        <p className="mt-3 text-center lg:text-start text-xl text-neutral-400/80">
+        <p className="mt-3 text-center lg:text-start text-lg lg:text-xl leading-snug text-neutral-400/80">
           Passionate about building scalable and intuitive web applications.
           Specialized in transforming ideas into real world businesses.
         </p>
-        <div className="flex justify-between mt-10 lg:mt-16">
-          <CountComponent count={4} label="Years of experience" />
-          <CountComponent count={10} label="Projects Completed" />
-          <CountComponent count={5} label="Worldwide clients" />
+        <div className="flex mt-10 lg:mt-16">
+          <CountComponent count={12} label="Years of experience" />
+          <CountComponent count={46} label="Projects Completed" />
+          <CountComponent count={20} label="Worldwide clients" />
         </div>
       </div>
       <div className="flex text-3xl font-medium uppercase flex-col lg:flex-row gap-5 mt-20">

@@ -8,7 +8,7 @@ const Heading = ({
   return (
     <h1 className="text-[3.56rem] lg:text-[6.5rem] leading-[3.56rem] lg:leading-[6.5rem] font-bold uppercase text-center lg:text-start">
       {highlightedLabel}{" "}
-      <span className="text-neutral-700/70">{MutedLabel}</span>
+      <span className="text-muted-foreground/30">{MutedLabel}</span>
     </h1>
   );
 };
