@@ -1,11 +1,10 @@
 "use client";
 
-import { Briefcase, Folder, House, SquarePen, Wrench } from "lucide-react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import { usePathname } from "next/navigation";
-
 import { Badge } from "@/components/ui/badge";
+import { usePathname } from "next/navigation";
+import { Briefcase, Folder, House, SquarePen, Wrench } from "lucide-react";
 
 const routes = [
   {
