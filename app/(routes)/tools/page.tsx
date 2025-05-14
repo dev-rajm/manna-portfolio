@@ -1,5 +1,7 @@
+import ToolComponent from "@/components/toolComponent";
+
 const SkillPage = () => {
-  return <div>Hello from Skills Page</div>;
+  return <ToolComponent />;
 };
 
 export default SkillPage;
