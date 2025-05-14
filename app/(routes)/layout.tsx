@@ -1,5 +1,6 @@
 import Navbar from "@/components/navbar";
 import IntroCard from "@/components/Introduction/introCard";
+import Contact from "@/components/contact";
 
 const RouteLayout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -10,7 +11,12 @@ const RouteLayout = ({ children }: { children: React.ReactNode }) => {
           <div className="flex w-full h-fit lg:sticky lg:top-10 lg:w-fit mb-10 lg:m-0">
             <IntroCard />
           </div>
-          <div className="w-full lg:w-1/2">{children}</div>
+          <div className="w-full lg:w-1/2">
+            {children}
+            <div className="my-20 self-end">
+              <Contact />
+            </div>
+          </div>
         </div>
       </main>
     </div>
