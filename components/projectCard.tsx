@@ -28,7 +28,7 @@ const ProjectCard = () => {
     <>
       {projects.map((project) => (
         <Link key={project.href} href={project.href}>
-          <div className="flex justify-between hover:bg-black/20 py-2 lg:p-5 rounded-2xl transition group">
+          <div className="flex justify-between hover:bg-black/30 py-2 lg:p-5 rounded-2xl transition group">
             <div className="flex items-center">
               <div className="w-28 h-28 lg:w-36 lg:h-36 relative">
                 <Image
