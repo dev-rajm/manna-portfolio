@@ -1,5 +1,5 @@
-import ExperienceCards from "../experienceCard";
-import Heading from "../heading";
+import ExperienceCards from "@/components/experienceCards";
+import Heading from "@/components/heading";
 
 const ExperienceComponent = () => {
   return (
