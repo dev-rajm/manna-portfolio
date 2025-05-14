@@ -1,12 +1,12 @@
-import ProjectComponent from "@/components/projects";
-import IntroComponent from "@/components/intro";
-import ExperienceComponent from "@/components/experienceComponent";
-import ToolComponent from "@/components/toolComponent";
+import Stats from "@/components/Introduction/introStat";
+import ProjectComponent from "@/components/pageComponents/projectComponent";
+import ExperienceComponent from "@/components/pageComponents/experienceComponent";
+import ToolComponent from "@/components/pageComponents/toolComponent";
 
 const HomePage = () => {
   return (
     <>
-      <IntroComponent />
+      <Stats />
       <div className="mt-16 lg:mt-32">
         <ProjectComponent />
       </div>

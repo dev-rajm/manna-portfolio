@@ -1,6 +1,6 @@
-import { MoveUpRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { MoveUpRight } from "lucide-react";
 
 const projects = [
   {
@@ -23,7 +23,7 @@ const projects = [
   },
 ];
 
-const ProjectCard = () => {
+const ProjectCards = () => {
   return (
     <>
       {projects.map((project) => (
@@ -55,4 +55,4 @@ const ProjectCard = () => {
   );
 };
 
-export default ProjectCard;
+export default ProjectCards;

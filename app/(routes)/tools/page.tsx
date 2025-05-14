@@ -1,4 +1,4 @@
-import ToolComponent from "@/components/toolComponent";
+import ToolComponent from "@/components/pageComponents/toolComponent";
 
 const SkillPage = () => {
   return <ToolComponent />;

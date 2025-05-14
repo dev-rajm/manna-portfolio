@@ -1,8 +1,8 @@
-import { Github, Instagram, Mail, Twitter } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { Github, Instagram, Mail, Twitter } from "lucide-react";
 
-const Sidebar = () => {
+const IntroCard = () => {
   return (
     <div className="p-7 pb-10 relative overflow-hidden md:mx-7 lg:px-14 lg:py-9 flex flex-col text-neutral-500 bg-white w-full lg:w-[24rem] rounded-2xl">
       <Image
@@ -35,7 +35,7 @@ const Sidebar = () => {
           A Software Engineer who has developed countless scalable solutions.
         </p>
       </div>
-      <div className="flex justify-center text-orange-600 space-x-6 mt-6">
+      <div className="flex justify-center text-orange-500 space-x-6 mt-6">
         <Link href="https://github.com/dev-rajm">
           <Github />
         </Link>
@@ -53,4 +53,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default IntroCard;

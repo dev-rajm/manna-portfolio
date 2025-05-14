@@ -1,11 +1,7 @@
-import ExperienceComponent from "@/components/experienceComponent";
+import ExperienceComponent from "@/components/pageComponents/experienceComponent";
 
 const ExperiencePage = () => {
-  return (
-    <>
-      <ExperienceComponent />
-    </>
-  );
+  return <ExperienceComponent />;
 };
 
 export default ExperiencePage;

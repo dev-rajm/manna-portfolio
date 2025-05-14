@@ -1,8 +1,8 @@
+import Heading from "@/components/heading";
+import CountComponent from "@/components/count";
 import { ArrowUpRight, Layers, PanelsTopLeft } from "lucide-react";
-import CountComponent from "./count";
-import Heading from "./heading";
 
-const IntroComponent = () => {
+const Stats = () => {
   return (
     <>
       <div className="w-full lg:w-lg">
@@ -39,4 +39,4 @@ const IntroComponent = () => {
   );
 };
 
-export default IntroComponent;
+export default Stats;

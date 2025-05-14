@@ -1,11 +1,7 @@
-import ProjectsComponent from "@/components/projects";
+import ProjectComponent from "@/components/pageComponents/projectComponent";
 
 const ProjectPage = () => {
-  return (
-    <>
-      <ProjectsComponent />
-    </>
-  );
+  return <ProjectComponent />;
 };
 
 export default ProjectPage;
